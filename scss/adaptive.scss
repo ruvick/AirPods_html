@@ -1,0 +1,20 @@
+@media screen and (max-width: 999px){
+    .accs-box .row {
+        flex-wrap: wrap;
+    }
+    .accs-box .row .accs__wr {
+        width: 50%; 
+    }
+}
+@media screen and (max-width: 750px){
+    :root{font-size: 12px; line-height: 15px; color: $text-color; font-family: 'Lato-Light', sans-serif; }
+    .accs-box .row {
+        margin: 0;
+        display: block;
+    }
+
+    .accs-box .row .accs__wr {
+        width: 100%; 
+        padding-right: 0;
+    }
+}
